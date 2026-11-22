@@ -28,6 +28,11 @@ int binDigits[16][4] =
 
 void setup() {
 
+  pinMode(8,OUTPUT);
+  pinMode(7,OUTPUT);
+  pinMode(6,OUTPUT);
+  pinMode(5,OUTPUT);
+    
   flipSwitch(1);
   delay(5000);
   flipSwitch(0);
